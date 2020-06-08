@@ -1,6 +1,6 @@
 # my8085
 
-    This is the Verilog code for 8085 microprocessor with limited (18) number of instructions
+    This is the light version Verilog code for 8085 microprocessor with 18 number of supported instructions
 
 # Instructions
                                     1 BYTE                         2 BYTE                        3 BYTE
