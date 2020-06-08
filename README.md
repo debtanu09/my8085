@@ -3,7 +3,7 @@
 This is the Verilog code for 8085 microprocessor with limited (18) number of instructions
 
 # Instructions
-------------------------------- 1 BYTE ----------------------- 2 BYTE ----------------------- 3 BYTE -----------------------
+                                1 BYTE                         2 BYTE                        3 BYTE
 MOV R1, R2                     01DDDSSS
 MOV R, M                       01DDD110
 MOV M, R                       01110SSS
@@ -26,11 +26,11 @@ RZ                             11001000
 
 # Description
 
-  LLLLLLLL ------- LOWER ORDER ADDR
-  HHHHHHHH ------- HIGHER ORDER ADDR
-  SSS ------------ SOURCE REGISTER
-  DDD ------------ DESTINATION REGISTER
-  DD ------------- DESTINATION REGISTER PAIR
+  LLLLLLLL         LOWER ORDER ADDR
+  HHHHHHHH         HIGHER ORDER ADDR
+  SSS              SOURCE REGISTER
+  DDD              DESTINATION REGISTER
+  DD               DESTINATION REGISTER PAIR
 
 # Valid values
 
